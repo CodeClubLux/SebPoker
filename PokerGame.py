@@ -1,12 +1,13 @@
 import pygame, random, sys, os, platform, pickle, time, os.path, shutil, re
 from pygame.locals import *
+pygame.init()
 # MODULES
 
 #DEFINING SCREEN
 zoom = 1.3
 Info = pygame.display.Info()
 WIDTH = int(Info.current_w / zoom)
-WIDTH = int(Info.current_h / zoom)
+HEIGHT = int(Info.current_h / zoom)
 screen = pygame.display.set_mode((WIDTH,HEIGHT))
 
 #STARTING LOOP
