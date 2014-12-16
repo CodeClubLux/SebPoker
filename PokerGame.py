@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import pygame, random, sys, os, platform, pickle, time, os.path, shutil, re
 from pygame.locals import *
 pygame.init()
